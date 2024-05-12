@@ -141,7 +141,7 @@ search_in_file_extensions=PoolStringArray( "gd", "gdshader", "shader", "tscn" )
 
 [editor_plugins]
 
-enabled=PoolStringArray( "res://addons/aseprite_importer/plugin.cfg", "res://addons/silent_wolf/plugin.cfg" )
+enabled=PoolStringArray( "res://addons/silent_wolf/plugin.cfg" )
 
 [global]
 
@@ -341,6 +341,7 @@ pointing/emulate_touch_from_mouse=true
 
 [rendering]
 
+quality/driver/driver_name="GLES2"
 2d/snapping/use_gpu_pixel_snap=true
 environment/default_clear_color=Color( 0, 0, 0, 1 )
 environment/default_environment="res://default_env.tres"
